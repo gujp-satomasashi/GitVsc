@@ -1,9 +1,9 @@
-
+--20190612修正→push
 
 --検証確認用
 
 
-select
+:select
   SUBSTRING(pk_order_id, 3, 6)
   ,COUNT(*)
   ,COUNT(distinct pk_order_id)
